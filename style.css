@@ -21,6 +21,8 @@ body{
   font-size: 1rem;
 }
 
+/* CABECALHO DA PAGINA */
+
 body::before{
   content: '';
 
@@ -37,8 +39,6 @@ body::before{
 header{
   height: 19rem;
 }
-
-
 
 .navbar{
   display: flex;
@@ -115,6 +115,8 @@ header h1{
   padding: 10px 16px;
 }
 
+
+/*CORPO DA PAGINA */
 .page{
   background: #F7F7F7;
 
@@ -132,21 +134,22 @@ header h1{
 
 .article-wrapper{
   color: var(--cor-fonte-cinza);
-
   background: #e7e7e7;
+
+  border-radius: 5px;
 
   width: 17rem;
   height: 13rem;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 
   gap: 1rem;
 
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 1.2rem 2rem;
 }
 
 .article-wrapper img{

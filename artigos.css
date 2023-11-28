@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+    padding: 0 10rem;
 }
 
 .article__titulo {
@@ -18,9 +19,12 @@
 }
 
 .article__texto {
-    margin: 2rem 0;
+    margin: 1rem 0;
+    text-align: justify;
+    max-width: 100ch;
 }
 
 .article__imagem {
     width: 25%;
+    margin: 1rem 0;
 }

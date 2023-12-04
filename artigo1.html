@@ -12,11 +12,10 @@
   <title> Project F | BASE DE CONHECIMENTO </title>
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="artigos.css">
 </head>
 <body>
-
- <!-- COMECO | CABECALHO DA PAGINA -->
-  <header> 
+  <header>
 
     <div class="navbar">
       <div class="logoDiv">
@@ -32,42 +31,34 @@
       <h1>Olá. Como podemos te ajudar?</h1>
       <input placeholder="Digite aqui algum artigo" type="search" name="" id="search">
     </div>
-    
-    <!-- FIM | CABECALHO DA PAGINA -->
-  </header> 
+  
+  </header>
 
-  <!-- COMECO | COPO DA PAGINA -->
-  <div class="page"> 
-
-    <a href="#">
-      <div class="article-wrapper">
-        <img src="assets/rocket.svg" alt="foguete subindo em alta velocidade">
-        <h3> Primeiro acesso </h3>
-        <p> Informações básicas para te auxiliar em seu primeiro acesso a nossa plataforma </p>
-    </div>
-    </a>
-
-    <a href="#">
-      <div class="article-wrapper">
-        <img src="assets/question.png" alt="foguete subindo em alta velocidade">
-        <h3> Perguntas Frequentes </h3>
-        <p> Compilado das dúvidas mais frequentes entre os usuários do Fastdialer </p>
-      </div>
-    </a>
-
-    <a href="">
-      <div class="article-wrapper">
-        <img src="assets/manual.png" alt="foguete subindo em alta velocidade">
-        <h3> Manual do operador </h3>
-        <p> Instruções mais detalhas sobre a utlização de nosso sistema para supervisores e operadores</p>
-    </div>
-    </a>
-     <!-- FIM | CORPO DA PAGINA -->
+  <aside>
+    <div>
+    <ul>
+      <li>Teste 1</li>
+      <li>Teste 2</li>
+    </ul>
   </div>
-  <!-- COMECO | RODAPE DA PAGINA -->
+  </aside>
+
+  <section class="article">
+    <h2 class="article__titulo">conceitos do Fastdialer</h2>
+    <h3 class="article__subtitulo">entrando no sistema: perfil de gestão</h3>
+    <p class="article__texto">Para acessar o FastDialer, utilize um navegador de sua preferência e digite o IP do servidor na barra de URL (barra de endereço). No exemplo abaixo, acessaremos um servidor que está no endereço 192.168.2.120:
+    </p>
+    <img src="./assets/img/ENTRANDO_NO_SISTEMA__perfil_gestao_img1.png" class="article__imagem">
+    <p class="article__texto"> Logo após você verá uma tela para fazer logon no sistema, que é composta por 4 itens:
+    </p>
+    <img src="./assets/img/ENTRANDO_NO_SISTEMA__perfil_gestao_img2.png" class="article__imagem">
+  </section>
+
+
+
   <footer>
     <p> Feito e idealizado por <a href="https://github.com/th3matts"> Matheus</a> e <a href="https://github.com/yurigoreri">Yuri</a></p>
-    <!-- FIM | RODAPE DA PAGINA -->
   </footer>
+
 </body>
 </html>

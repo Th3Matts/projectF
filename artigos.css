@@ -1,0 +1,30 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0 10rem;
+}
+
+.article__titulo {
+    padding: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.article__subtitulo {
+    padding: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.article__texto {
+    margin: 1rem 0;
+    text-align: justify;
+    max-width: 100ch;
+}
+
+.article__imagem {
+    width: 25%;
+    margin: 1rem 0;
+}
